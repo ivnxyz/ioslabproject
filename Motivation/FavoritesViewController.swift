@@ -49,7 +49,7 @@ class FavoritesViewController: UIViewController, UITableViewDataSource, UITableV
     // UITableViewDelegate
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 320
+        return 200
     }
     
     func favoriteValueChanged(index: Int, favorite: Bool) {
